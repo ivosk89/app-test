@@ -1,0 +1,17 @@
+###### Prg ######
+prg:
+  path: /prg
+  defaults: { _controller: 'Controllers\PrgController::index' }
+
+###### Database ######
+prg_sqlupdate:
+  path: /prg/sqlupdate
+  defaults: { _controller: 'Controllers\PrgController::update' }
+
+prg_sqldump:
+  path: /prg/sqldump
+  defaults: { _controller: 'Controllers\PrgController::dump' }
+
+prg_sqlmap:
+  path: /prg/sqlmap
+  defaults: { _controller: 'Controllers\PrgController::map' }

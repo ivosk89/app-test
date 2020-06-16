@@ -1,0 +1,10 @@
+/.idea/
+/nbproject/
+/vendor/
+/node_modules/
+/composer.phar
+/public/images/
+/app/cache/
+/app/log/
+/app/config/local.conf.php
+npm-debug.log

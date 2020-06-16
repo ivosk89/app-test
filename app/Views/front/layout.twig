@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    {% block meta %}{% endblock %}
+
+    <base href="{{ app.request.basepath }}/"/>
+
+    <title>{% block title %}EikonSilex{% endblock %}</title>
+
+    <link rel="icon" type="image/png" href="assets/img/favicon.png"/>
+
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/lib/normalize.css">
+    {% block css %}{% endblock %}
+
+    <script type="text/javascript" src="assets/js/lib/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    {% block js %}{% endblock %}
+</head>
+
+<body>
+{% include  'front/header.twig' only %}
+{% block content %}
+{% endblock %}
+{% include  'front/footer.twig' only %}
+</body>
+</html>

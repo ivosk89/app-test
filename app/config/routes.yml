@@ -1,0 +1,14 @@
+home:
+  path: /
+  defaults: { _controller: 'Controllers\IndexController::index' }
+
+ajax_change_country:
+  path: /change/country
+  defaults: { _controller: 'Controllers\IndexController::ajaxChangeCountry' }
+
+ajax_change_region:
+  path: /change/region
+  defaults: { _controller: 'Controllers\IndexController::ajaxChangeRegion' }
+
+prg_pages:
+  resource: routes.prg.yml

@@ -1,0 +1,30 @@
+{
+    "authors": [
+        {
+            "name": "Eikoncraft",
+            "email": "team@eikoncraft.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "^1.2",
+        "doctrine/dbal": "^2.3",
+        "doctrine/orm": "^2.2",
+        "symfony/doctrine-bridge": "^2.2",
+        "twig/twig": "^1.8",
+        "symfony/twig-bridge": "^2.3",
+        "symfony/security": "^2.1",
+        "symfony/config": "^2.1",
+        "symfony/yaml": "^2.3",
+        "symfony/form": "^2.2",
+        "symfony/validator": "^2.2",
+        "symfony/translation": "~2.3",
+        "symfony/security-csrf": "^2.4",
+        "symfony/dependency-injection": "^2.3",
+        "monolog/monolog": "^1.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "" : "app/"
+        }
+    }
+}
